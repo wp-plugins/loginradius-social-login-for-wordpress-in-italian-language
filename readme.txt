@@ -142,7 +142,8 @@ Grazie per aver scaricato il nostro plugin ^_^
 
 == Screenshots ==
 
-1. Screenshot-1: Questa immagine visualizza l'interfaccia loginradius per la sezione di login. La sua mostra tutte fornitore di seleQuesta immagine visualizza l'interfaccia loginradius per la sezione dei commenti. La sua mostra tutte fornitore di selezionare con una opzione scorrimento. /tags/1.0/screenshot-2.png
+1. Screenshot-1: Questa immagine visualizza l'interfaccia loginradius per la sezione di login. La sua mostra tutte fornitore di selezionare con una opzione scorrimento. /tags/1.0/screenshot-1.png
+2. Screenshot-2: Questa immagine visualizza l'interfaccia loginradius per la sezione dei commenti. La sua mostra tutte fornitore di selezionare con una opzione scorrimento. /tags/1.0/screenshot-2.png
 3. Screenshot-3: Questo screenshot mostra il login di default wordpress con interfaccia LoginRadius collegato ad esso. /tags/1.0/screenshot-3.png
 
 
