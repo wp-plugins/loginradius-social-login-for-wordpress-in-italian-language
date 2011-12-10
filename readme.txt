@@ -11,7 +11,7 @@ Stable tag: 1.0.3
 
 LoginRadius abilita il "Social Login" su siti Wordpress e non.
 
-== Descrizione ==
+== Description ==
 
 Il plugin LoginRadius consente agli utenti di accedere a un sito Wordpress, semplicemente con un click, 
 usando il proprio account Facebook, Twitter, Google, Yahoo e tantissimi altri (20 in totale). Elimina quindi un lungo
@@ -68,7 +68,7 @@ Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">
 * I nostri video: http://www.youtube.com/loginradius
 
 
-== Installazione ==
+== Installation ==
 
 1. Scaricate il plugin e decomprimite il contenuto.
 2. Caricate il contenuto nella cartella "plugins" del vostro sito wordpress (es. http://www.nome_sito.it/wp-content/plugins/)  
@@ -109,7 +109,7 @@ Se desiderate inserire LoginRadius su qualsiasi pagina, usare la chiamata Login_
 
 
 
-== Domande frequenti (FAQ) ==
+==  Frequently Asked Questions ==
 
 
 
@@ -140,6 +140,10 @@ Sì, si prega di visitare il nostro sito WordPress demo live al http://wordpressd
 
 Grazie per aver scaricato il nostro plugin ^_^
 
+== Screenshots ==
+
+1. Screenshot-1: Questa immagine visualizza l'interfaccia loginradius per la sezione di login. La sua mostra tutte fornitore di seleQuesta immagine visualizza l'interfaccia loginradius per la sezione dei commenti. La sua mostra tutte fornitore di selezionare con una opzione scorrimento. /tags/1.0/screenshot-2.png
+3. Screenshot-3: Questo screenshot mostra il login di default wordpress con interfaccia LoginRadius collegato ad esso. /tags/1.0/screenshot-3.png
 
 
 == Changelog ==
