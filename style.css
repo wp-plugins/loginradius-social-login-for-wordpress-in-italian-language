@@ -1,0 +1,25 @@
+.LoginRadius_images {
+    max-height: 250px;
+    max-width: 360px;
+    padding: 5px 0 5px 0;
+}
+
+.LoginRadius_upload_form .title {
+    clear : both;
+}
+
+#LoginRadius_preview {
+    margin-bottom: -10px;
+}
+
+#LoginRadius_preview .LoginRadius_preview_img {
+    width: 70%;
+    max-height: 600px;
+    clear: both;
+    padding: 0 15% 0 15%;
+}
+
+#LoginRadius_preview .LoginRadius_preview_file {
+    text-align: center;
+    padding: 10px 0 17px 0;
+}
