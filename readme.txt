@@ -21,48 +21,51 @@ processo di registrazione ovvero:
 2) Verificare l' e-mail.
 3) Ricordarsi di un ulteriore login e password.
 
+Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">video loginradius</a>
+[youtube http://www.youtube.com/watch?v=mLYbVNsU36U]
+
 = Caratteristiche =
 
-1. Login Sociale
-2. Dati profilo utente quali: Nickname, email (solo per alcuni social), IP.
-3. Social Analytics (Coming Soon!)
-4. GRATUITO
-5. Non richiede conoscenze di programmazione.
-6. Personalizzazioni per utenti "Premium" (a pagamento).
-7. Disponibile non solo per i cms quali Wordpress e Joomla! ma integrabile anche su cms ad hoc.
-8. supporto 24ore/24 x 7gg/7
+* Login Sociale
+* Dati profilo utente quali: Nickname, email (solo per alcuni social), IP.
+* Social Analytics (Coming Soon!)
+* GRATUITO
+* Non richiede conoscenze di programmazione.
+* Personalizzazioni per utenti "Premium" (a pagamento).
+* Disponibile non solo per i cms quali Wordpress e Joomla! ma integrabile anche su cms ad hoc.
+* supporto 24ore/24 x 7gg/7
 
 
 = Elenco dei fornitori di ID =
-1. Facebook
-2. Google
-3. Twitter
-4. AOL
-5. Flickr
-6. Yahoo
-7. Linkedin
-8. Wordpress
-9. Blogger
-10. MyOpenID
-11. LiveJournal
-12. VeriSign
-13. OpenID
-14. Hyves
-15. Mixi
-16. MySpace
-17. Orange
-18. StackExchange
-19. SteamCommunity
-20. Virgilio
+* Facebook
+* Google
+* Twitter
+* AOL
+* Flickr
+* Yahoo
+* Linkedin
+* Wordpress
+* Blogger
+* MyOpenID
+* LiveJournal
+* VeriSign
+* OpenID
+* Hyves
+* Mixi
+* MySpace
+* Orange
+* StackExchange
+* SteamCommunity
+* Virgilio
 
 
 = Links =
-1. Website: http://www.loginradius.com
-2. Wordpress live demo: http://wordpressdemo.loginradius.com
-2. Altri live demo: http://www.loginradius.com/demo
-3. Press/Media page: http://www.loginradius.com/press
-4. Blog: http://blog.loginradius.com
-5. I nostri video: http://www.youtube.com/loginradius
+* Website: http://www.loginradius.com
+* Wordpress live demo: http://wordpressdemo.loginradius.com
+* Altri live demo: http://www.loginradius.com/demo
+* Press/Media page: http://www.loginradius.com/press
+* Blog: http://blog.loginradius.com
+* I nostri video: http://www.youtube.com/loginradius
 
 
 == Installazione ==
