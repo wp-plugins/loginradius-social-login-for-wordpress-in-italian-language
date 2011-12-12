@@ -17,9 +17,9 @@ Il plugin LoginRadius consente agli utenti di accedere a un sito Wordpress, semp
 usando il proprio account Facebook, Twitter, Google, Yahoo e tantissimi altri (20 in totale). Elimina quindi un lungo
 processo di registrazione ovvero:
 
-1) Riempire un modulo (si evita soprattutto l'insopportabile captcha).
-2) Verificare l' e-mail.
-3) Ricordarsi di un ulteriore login e password.
+1. Riempire un modulo (si evita soprattutto l'insopportabile captcha).
+2. Verificare l' e-mail.
+3. Ricordarsi di un ulteriore login e password.
 
 Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">video loginradius</a>
 [youtube http://www.youtube.com/watch?v=mLYbVNsU36U]
@@ -111,13 +111,9 @@ Se desiderate inserire LoginRadius su qualsiasi pagina, usare la chiamata Login_
 
 ==  Frequently Asked Questions ==
 
-
-
 = Che cos'è LoginRadius? =
 
 LoginRadius è un Software As A Service (SAAS), che permette agli utenti di accedere a un sito Web (siti web, CMS e CMS ad hoc) tramite account social come Google, Facebook, Yahoo, AOL tanti altri (20 in totale).
-
-
 
 = Per quanto tempo posso usare il plugin? =
 
