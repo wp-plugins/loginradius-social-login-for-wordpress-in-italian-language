@@ -73,7 +73,7 @@ Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">
 1. Scaricate il plugin e decomprimite il contenuto.
 2. Caricate il contenuto nella cartella "plugins" del vostro sito wordpress (es. http://www.nome_sito.it/wp-content/plugins/)  
 3. Attivate il plugin attraverso la pagina "plugin" nel pannello di amministrazione raggiungile all'indirizzo http://www.nome_sito.it/wp-admin/
-4. Dopo aver attivato il plugin, apparirà una nuova voce denominata "LoginRadius" nel menu "Impostazioni". Completate la configurazione inserendo negli appositi campi l'API Key e API Key Secret (vedi punto 8).
+4. Dopo aver attivato il plugin, apparira' una nuova voce denominata "LoginRadius" nel menu "Impostazioni". Completate la configurazione inserendo negli appositi campi l'API Key e API Key Secret (vedi punto 8).
 
 
 
@@ -81,7 +81,7 @@ Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">
 
 5. Una volta configurato il plugin, accedere alla sezione "Aspetto" -> "Widget" 
 6. Cercate il widget di 'LoginRadius' e trascinatelo nella sidebar.
-7. Dopo l'aggiunta è necessario impostare e/o modificare alcune semplici opzioni (titolo, testo da visualizzare nell'header/footer del widget o renderlo invisibile se l'utente è loggato).
+7. Dopo l'aggiunta e' necessario impostare e/o modificare alcune semplici opzioni (titolo, testo da visualizzare nell'header/footer del widget o renderlo invisibile se l'utente e' loggato).
 
 
 
@@ -142,11 +142,11 @@ Grazie per aver scaricato il nostro plugin ^_^
 
 == Screenshots ==
 
-Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-1.png
+Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-1.png
 
-Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-2.png
+Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-2.png
 
-Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-3.png
+Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-3.png
 
 
 == Changelog ==
