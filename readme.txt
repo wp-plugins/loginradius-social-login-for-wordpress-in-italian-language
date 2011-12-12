@@ -111,13 +111,13 @@ Se desiderate inserire LoginRadius su qualsiasi pagina, usare la chiamata Login_
 
 ==  Frequently Asked Questions ==
 
-= Che cos'è LoginRadius? =
+= Che cos'e' LoginRadius? =
 
-LoginRadius è un Software As A Service (SAAS), che permette agli utenti di accedere a un sito Web (siti web, CMS e CMS ad hoc) tramite account social come Google, Facebook, Yahoo, AOL tanti altri (20 in totale).
+LoginRadius e' un Software As A Service (SAAS), che permette agli utenti di accedere a un sito Web (siti web, CMS e CMS ad hoc) tramite account social come Google, Facebook, Yahoo, AOL tanti altri (20 in totale).
 
 = Per quanto tempo posso usare il plugin? =
 
-Per tutto il tempo che si usa LoginRadius. È possibile rimuovere LoginRadius dal vostro sito web e cancella il vostro account in qualsiasi momento.
+Per tutto il tempo che si usa LoginRadius. E' possibile rimuovere LoginRadius dal vostro sito web e cancella il vostro account in qualsiasi momento.
 
 
 = Come posso contattare il Team di LoginRadius? =
@@ -127,22 +127,22 @@ Se avete domande o dubbi riguardanti LoginRadius, scrivere a hello@loginradius.c
 
 = Quanto costa? =
 
-E' gratuito e rimarrà tale, ma per funzionalità avanzate e soluzioni personalizzate, sono disponibili vari pacchetti. Vi preghiamo di contattarci per ulteriori dettagli.
+E' gratuito e rimarra' tale, ma per funzionalita' avanzate e soluzioni personalizzate, sono disponibili vari pacchetti. Vi preghiamo di contattarci per ulteriori dettagli.
 
 
 = Avete un sito live demo? =
 
-Sì, si prega di visitare il nostro sito WordPress demo live al http://wordpressdemo.loginradius.com! Prova ad accedere e a commentare :-)
+Si', si prega di visitare il nostro sito WordPress demo live al http://wordpressdemo.loginradius.com! Prova ad accedere e a commentare :-)
 
 Grazie per aver scaricato il nostro plugin ^_^
 
 == Screenshots ==
 
-Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-1.png
+1. Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-1.png
 
-Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-2.png
+2. Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-2.png
 
-Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-3.png
+3. Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-3.png
 
 
 == Changelog ==
