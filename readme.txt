@@ -142,11 +142,11 @@ Grazie per aver scaricato il nostro plugin ^_^
 
 == Screenshots ==
 
-Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-1.png
+Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-1.png
 
-Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-2.png
+Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-2.png
 
-Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-3.png
+Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-3.png
 
 
 == Changelog ==
