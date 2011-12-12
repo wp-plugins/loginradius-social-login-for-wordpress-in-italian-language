@@ -142,9 +142,11 @@ Grazie per aver scaricato il nostro plugin ^_^
 
 == Screenshots ==
 
-1. Screenshot-1: Questa immagine visualizza l'interfaccia loginradius per la sezione di login. La sua mostra tutte fornitore di selezionare con una opzione scorrimento. /tags/1.0/screenshot-1.png
-2. Screenshot-2: Questa immagine visualizza l'interfaccia loginradius per la sezione dei commenti. La sua mostra tutte fornitore di selezionare con una opzione scorrimento. /tags/1.0/screenshot-2.png
-3. Screenshot-3: Questo screenshot mostra il login di default wordpress con interfaccia LoginRadius collegato ad esso. /tags/1.0/screenshot-3.png
+Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-1.png
+
+Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-2.png
+
+Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0/screenshot-3.png
 
 
 == Changelog ==
