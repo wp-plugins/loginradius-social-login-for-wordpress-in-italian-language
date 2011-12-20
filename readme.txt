@@ -1,10 +1,10 @@
-=== LoginRadius (Social Login) for wordpress ===
+=== LoginRadius (Social Login) for wordpress in italian ===
 Contributors: loginradius team, Language Translator-Test: Michelangelo Giannino.com
 Donate link: http://www.loginradius.com/
 Tags: Social login, openID, Wordpress plugin, LoginRadius, comments, share post, open authentication, facebook connect, Social Login,
 OpenID integration, Open Authentication, User Profile Data, Social Analytics, oAuth integration, Online Identity, Social Profile storage,
 single sign-on , SAAS solution, Social Sign-in, Social Login Plug-in, Facebook Connect, Google, Yahoo OpenID, Hyves openid,Linkedin openid,
-Mixi opendID, Virgilio OpenID
+Mixi opendID, Virgilio OpenID, italian language
 Requires at least: 2.5.0
 Tested up to: 3.2.1
 Stable tag: 1.0.3
