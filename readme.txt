@@ -1,4 +1,4 @@
-=== LoginRadius (Social Login) for wordpress in italian language ===
+=== Social Login for wordpress in italian language ===
 Contributors: loginradius team, Language Translator-Test: Michelangelo Giannino.com
 Donate link: http://www.loginradius.com/
 Tags: Social login, openID, Wordpress plugin, LoginRadius, comments, share post, open authentication, facebook connect, Social Login,
@@ -7,7 +7,7 @@ single sign-on , SAAS solution, Social Sign-in, Social Login Plug-in, Facebook C
 Mixi opendID, Virgilio OpenID, italian language,BuddyPress
 Requires at least: 2.5.0
 Tested up to: 3.2.1
-Stable tag: 1.0.3
+Stable tag: 2.0
 
 LoginRadius abilita il "Social Login" su siti Wordpress e non.
 
@@ -147,17 +147,21 @@ Grazie per aver scaricato il nostro plugin ^_^
 
 == Changelog ==
 
-= 1.0 =
-* This is the first version of the application.
+= 2.0 =
+* Most stable release
+* Bug fixes and Admin enhancements
 
-= 1.0.1 =
-* Added js directory
+= 1.0.3 =
+* Bug fixed - Registered user email notification issue
 
 = 1.0.2 =
 * Bug fixed - Email pop-up issue
 
-= 1.0.3 =
-* Bug fixed - Registered user email notification issue
+= 1.0.1 =
+* Added js directory
+
+= 1.0 =
+* This is the first version of the application.
 
 == Upgrade Notice ==
 
@@ -172,3 +176,6 @@ Bug fixed - Email pop-up issue
 
 = 1.0.3 =
 Bug fixed - Registered user email notification issue
+
+= 2.0 =
+Bug fixes and Admin interface enhancements
