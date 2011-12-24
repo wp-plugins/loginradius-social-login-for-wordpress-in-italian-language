@@ -4,16 +4,16 @@ Donate link: http://www.loginradius.com/
 Tags: Social login, openID, Wordpress plugin, LoginRadius, comments, share post, open authentication, facebook connect, Social Login,
 OpenID integration, Open Authentication, User Profile Data, Social Analytics, oAuth integration, Online Identity, Social Profile storage,
 single sign-on , SAAS solution, Social Sign-in, Social Login Plug-in, Facebook Connect, Google, Yahoo OpenID, Hyves openid,Linkedin openid,
-Mixi opendID, Virgilio OpenID, italian language,BuddyPress
+Mixi opendID, Virgilio OpenID, italian language, BuddyPress
 Requires at least: 2.5.0
 Tested up to: 3.2.1
 Stable tag: 2.0
 
-LoginRadius abilita il "Social Login" su siti Wordpress e non.
+Lasciate che i vostri utenti tramite login e commentare i loro ID esistente da fornitori ID popolari come Facebook, Google, Twitter, Yahoo, Live e oltre 15 di piu'!
 
 == Description ==
 
-Il plugin LoginRadius consente agli utenti di accedere a un sito Wordpress, semplicemente con un click, 
+Il plugin questo consente agli utenti di accedere a un sito Wordpress, semplicemente con un click, 
 usando il proprio account Facebook, Twitter, Google, Yahoo e tantissimi altri (20 in totale). Elimina quindi un lungo
 processo di registrazione ovvero:
 
@@ -21,11 +21,19 @@ processo di registrazione ovvero:
 2. Verificare l' e-mail.
 3. Ricordarsi di un ulteriore login e password.
 
-Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">video loginradius</a>
+'Login sociale per WordPress' plugin e' sviluppato da LoginRadius, guardare <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">il nostro video</a>
 [youtube http://www.youtube.com/watch?v=mLYbVNsU36U]
 
-= Caratteristiche =
+= plug-in Caratteristiche =
+* Accesso Sociale
+* Commento con ID esistente
+* Ottenere dati del profilo utente
+* Selezionare i fornitori desiderati
+* Gestire i plug-in dal conto WP admin
+* Estremamente sicuro attraverso API REST
+* Get analisi sociale degli utenti
 
+= LoginRadius Caratteristiche del servizio =
 * Login Sociale
 * Dati profilo utente quali: Nickname, email (solo per alcuni social), IP.
 * Social Analytics (Coming Soon!)
@@ -67,7 +75,6 @@ Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">
 * Blog: http://blog.loginradius.com
 * I nostri video: http://www.youtube.com/loginradius
 
-
 == Installation ==
 
 1. Scaricate il plugin e decomprimite il contenuto.
@@ -75,15 +82,11 @@ Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">
 3. Attivate il plugin attraverso la pagina "plugin" nel pannello di amministrazione raggiungile all'indirizzo http://www.nome_sito.it/wp-admin/
 4. Dopo aver attivato il plugin, apparira' una nuova voce denominata "LoginRadius" nel menu "Impostazioni". Completate la configurazione inserendo negli appositi campi l'API Key e API Key Secret (vedi punto 8).
 
-
-
 = Configurazione del Widget =
 
 5. Una volta configurato il plugin, accedere alla sezione "Aspetto" -> "Widget" 
 6. Cercate il widget di 'LoginRadius' e trascinatelo nella sidebar.
 7. Dopo l'aggiunta e' necessario impostare e/o modificare alcune semplici opzioni (titolo, testo da visualizzare nell'header/footer del widget o renderlo invisibile se l'utente e' loggato).
-
-
 
 = Configurazione =
 
@@ -96,18 +99,14 @@ Guarda il <a href="http://www.youtube.com/watch?v=mLYbVNsU36U"  target="_blank">
 
 10. Copiate e incollate le due API key negli appositi campi.
 
-
 = Impostazione Commenti =
 
 Se si desidera che solo gli utenti registrati possano commentare, spuntate la voce "Gli utenti devono essere registrati e fare il login per poter inviare commenti", in "Impostazioni" -> "Discussione" dal pannello admin di Wordpress.
 
 
-
 = Impostare LoginRadius su una pagina =
 
 Se desiderate inserire LoginRadius su qualsiasi pagina, usare la chiamata Login_Radius_Connect_button ();
-
-
 
 ==  Frequently Asked Questions ==
 
@@ -138,11 +137,11 @@ Grazie per aver scaricato il nostro plugin ^_^
 
 == Screenshots ==
 
-1. Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-1.png
+1. Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.0/screenshot-1.png
 
-2. Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-2.png
+2. Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.0/screenshot-2.png
 
-3. Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/1.0.3/screenshot-3.png
+3. Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.0/screenshot-3.png
 
 
 == Changelog ==
