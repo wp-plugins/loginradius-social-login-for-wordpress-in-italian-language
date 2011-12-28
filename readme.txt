@@ -1,4 +1,4 @@
-=== Social Login for Wordpress in italian language ===
+=== Social Login for Wordpress in Italian ===
 Contributors: loginradius team, Language Translator-Test: Michelangelo Giannino.com
 Donate link: http://www.loginradius.com/
 Tags: Social login, openID, Wordpress plugin, LoginRadius, comments, share post, open authentication, facebook connect, Social Login,
