@@ -153,11 +153,11 @@ Grazie per aver scaricato il nostro plugin ^_^
 = 2.1 =
 * Stable release
 * Added foursquare social login in provider list
-* redirect user by choosing option admin.
-* email validation in popup and exists check.
-* popup enhancements
-* added interface on comment box for login user or open.
-* Admin interface enhancements
+* Redirect selection option in admin.
+* Existance of email validation.
+* Popup design enhancements.
+* New interface on comment box for login.
+* Admin interface design enhancements.
 
 = 2.0 =
 * Stable release
@@ -193,4 +193,9 @@ Bug fixed - Registered user email notification issue
 Bug fixes and Admin interface enhancements
 
 = 2.1 =
-All Bug fixes
+Enhancements:
+1. Redirect selection option in admin.
+2. Existance of email validation.
+3. Popup design enhancements.
+4. New interface on comment box for login.
+5. Admin interface design enhancements.
