@@ -148,7 +148,7 @@ switch( $Provider ){
 		            break;
 		case 'hyves':
 					$username=$FullName;
-					$fname=$FullName
+					$fname=$FullName;
 					$lname=$FullName;
 					$email=$Email;
 					break;
