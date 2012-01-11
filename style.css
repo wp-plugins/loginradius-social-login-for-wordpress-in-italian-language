@@ -12,18 +12,93 @@ padding: 20px;
 padding-bottom: 130px;
 position: fixed;
 }
-.LoginRadius_DivPopHeader {
-   margin: 150px 0 0 25%;
-   position: absolute;
-   z-index: 999;
- }
-.LoginRadius_popupDiv
-{
-padding:20px;
-height:120px; 
-width:300px; 
-background:#FFFFFF; 
-border:2px solid #00CCFF;
+#popupouter{
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	overflow:auto;
+	background:#f3f3f3;
+	padding:0px 0px 0px 0px;
+	width:370px;
+	margin-top:200px;
+	margin-left:271px;
+}
+
+#popupinner{
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	overflow:auto;
+	background:#ffffff;
+	margin:10px;
+	padding:10px 8px 4px 8px;
+}
+#textmatter{
+	margin:10px 0px 10px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-size:14px;
+
+}
+.inputtxt{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#a8a8a8;
+	font-size:11px;
+	border:#e5e5e5 1px solid;
+	width:280px;
+	height:27px;
+	margin:5px 0px 15px 0px;
+}
+.inputbutton{
+	border:#dcdcdc 1px solid;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	text-decoration:none;
+	color:#6e6e6e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	cursor:pointer;
+	background:#f3f3f3;
+	padding:6px 7px 6px 8px;
+	margin:0px 8px 0px 0px;
+ 
+}
+.inputbutton:hover{
+	border:#00ccff 1px solid;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	border-radius:2px;
+	khtml-border-radius:2px;
+	text-decoration:none;
+	color:#000000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	cursor:pointer;
+	padding:6px 7px 6px 8px;
+	-moz-box-shadow: 0px 0px  4px #8a8a8a;
+	-webkit-box-shadow: 0px 0px  4px #8a8a8a;
+	box-shadow: 0px 0px  4px #8a8a8a;
+	background:#f3f3f3;
+	margin:0px 8px 0px 0px;
+
+}
+#textdiv{
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+}
+
+.span{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#00ccff;
+}
+.span1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
 }
 .LoginRadius_container_outer {
  width: 648px;
@@ -101,10 +176,12 @@ border-color: #E6DB55;
 
 
 <!--[if IE]>
+
 .LoginRadius_content_IE
 {
 background:black;
 -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 filter: alpha(opacity=90);
 }
+
 <![endif]-->

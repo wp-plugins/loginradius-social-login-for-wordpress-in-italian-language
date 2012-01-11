@@ -17,6 +17,9 @@ if ( $force or !( get_option('dummyemail')) ) {
 if ( $force or !( get_option('LoginRadius_redirect')) ) {
 		update_option('LoginRadius_redirect',false);
 	}	
+if ( $force or !( get_option('title')) ) {
+		update_option('title',false);
+	}
 	}
 	/**
  * Displays the LoginRadius admin menu, first section (re)stores the settings.
@@ -40,12 +43,21 @@ function LoginRadius_submenu() {
 		} else {
 			LoginRadius_message(__("Occorre l'API Key Secret per il processo di Login.", 'LoginRadius'));
 		}
+		if (isset($_POST['title']) && $_POST['title']!="") {
+			update_option('title',$_POST['title']);
+		} else {
+			update_option('title',$_POST['title']=='Effettua il Login con');
+		}
 		if (isset($_POST['dummyemail'])==true && $_POST['dummyemail']!="") {
 			update_option('dummyemail',$_POST['dummyemail']==true);
 		} else {
 			update_option('dummyemail',$_POST['dummyemail']==false);
 		}
 		$LoginRadius_redirect = $_POST['LoginRadius_redirect'];
+		if ($LoginRadius_redirect=='samepage' && $LoginRadius_redirect!="") {
+		$samepage = 'checked';
+			update_option('LoginRadius_redirect',$LoginRadius_redirect);
+		} 
 		if ($LoginRadius_redirect=='homepage' && $LoginRadius_redirect!="") {
 		$homepage = 'checked';
 			update_option('LoginRadius_redirect',$LoginRadius_redirect);
@@ -129,6 +141,13 @@ E possibile selezionare impostazioni desiderate per il vostro plugin in questa p
 	<th class="head" colspan="2">LoginRadius Impostazioni di base</small></th>
 	</tr>
 	<tr>
+	<th scope="row">titolo</th>
+	<td><?php _e("Questo testo displyed sopra il pulsante di accesso sociale.", 'LoginRadius'); ?>
+	<br />
+<input type="text"  name="title" size="60" value="<?php if(htmlspecialchars(get_option('title'))){echo htmlspecialchars(get_option('title'));}else{echo 'Effettua il Login con';} ?>" />
+</td>
+	</tr>
+	<tr>
 	<th scope="row">Email richiesta:</th>
 	<td><?php _e("alcuni provider non forniscono l'ID email. Seleziona SI se desideri un popup email dopo il login o seleziona NO se vuoi generare automaticamente l'indirizzo email.", 'LoginRadius'); ?>
 	</td></tr>
@@ -142,8 +161,9 @@ No &nbsp;<input name="dummyemail" type="radio" value="1" <?php checked( '1', get
 	<tr >
 	<th scope="row">Accedi impostazioni di reindirizzamento</th>
 	<td>
+<input type="radio" name="LoginRadius_redirect" value="samepage" <?php checked( 'samepage', get_option( 'LoginRadius_redirect' )); ?> checked /> <?php _e ('Reindirizzamento alla stessa pagina del blog'); ?> <strong>(<?php _e ('difetto') ?>)</strong><br />
 
-<input type="radio" name="LoginRadius_redirect" value="homepage" <?php checked( 'homepage', get_option( 'LoginRadius_redirect' )); ?> checked /> <?php _e ('Reindirizzamento alla home page del blog'); ?> <strong>(<?php _e ('Default') ?>)</strong>
+<input type="radio" name="LoginRadius_redirect" value="homepage" <?php checked( 'homepage', get_option( 'LoginRadius_redirect' )); ?>  /> <?php _e ('Reindirizzamento alla home page del blog'); ?>
 <br />
 <input type="radio" name="LoginRadius_redirect" value="dashboard" <?php checked( 'dashboard', get_option( 'LoginRadius_redirect' )); ?> /> <?php _e ('Reindirizzare cruscotto conto'); ?>
 <br />

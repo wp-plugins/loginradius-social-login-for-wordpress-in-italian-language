@@ -1,16 +1,28 @@
 <?php function Login_Radius_Connect_button() {
 $LoginRadius_apikey=get_option('LoginRadius_apikey');
 $LoginRadius_secret=get_option('LoginRadius_secret');
+$title=get_option('title');
 if (!is_user_logged_in()) {
 	if( $args == NULL )
 		$display_label = true;
 	elseif ( is_array( $args ) )
 		extract( $args );
 if( $display_label != false ) : ?>
-			<div style="margin-bottom: 3px;"><label><?php _e( 'Accedi con', 'LoginRadius' );?>:</label></div>
+			<div style="margin-bottom: 3px;"><label><?php _e( $title, 'LoginRadius' );?>:</label></div>
 		<?php endif; ?>
-		<?php if( $LoginRadius_apikey!= "") : ?>
-		<iframe src="https://hub.loginradius.com/Control/PluginSlider.aspx?apikey=<?php echo $LoginRadius_apikey;?>" width="169" height="49" frameborder="0" scrolling="no" ></iframe>
+		<?php if( $LoginRadius_apikey!= "") : 
+	    $loc="http://".$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
+		if($_SERVER["REQUEST_URI"]=='/wp-login.php?action=register' 
+		OR $_SERVER["REQUEST_URI"]=='/wp-login.php' OR $_SERVER["REQUEST_URI"]=='/wp-login.php?loggedout=true' ) {
+		$loc="http://".$_SERVER["HTTP_HOST"];
+		}
+		if(isset($_GET['redirect_to'])) {
+		$loc=$_GET['redirect_to'];
+		}
+		if(urldecode($_GET['redirect_to'])==admin_url()) {
+		$loc="http://".$_SERVER["HTTP_HOST"];
+		}?>
+		<iframe src="https://hub.loginradius.com/Control/PluginSlider.aspx?apikey=<?php echo $LoginRadius_apikey;?>&callback=<?php echo $loc;?>" width="169" height="49" frameborder="0" scrolling="no" ></iframe>
 		<?php endif; ?>
 <?php }
 if (is_user_logged_in() && !is_admin()) {
@@ -45,6 +57,9 @@ else
 	{
 		switch (strtolower($LoginRadius_redirect))
 			{
+			   case 'homepage':
+				$redirect_to = site_url();
+				break;
 				case 'dashboard':
 				$redirect_to = admin_url();
 				break;
@@ -55,10 +70,10 @@ else
 				}
 				break;
 				default:
-				case 'homepage':
-				$redirect_to = site_url();
+				case 'samepage':
+				$redirect_to = $_GET['callback'];
 				break;
-	}
+	        }
 }		}
 if ($redirect_to_safe)
 {

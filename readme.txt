@@ -1,13 +1,13 @@
-=== Social Login for Wordpress in Italian ===
+=== Social Login for Wordpress in italian language ===
 Contributors: loginradius team, Language Translator-Test: Michelangelo Giannino.com
 Donate link: http://www.loginradius.com/
 Tags: Social login, openID, Wordpress plugin, LoginRadius, comments, share post, open authentication, facebook connect, Social Login,
 OpenID integration, Open Authentication, User Profile Data, Social Analytics, oAuth integration, Online Identity, Social Profile storage,
-single sign-on , SAAS solution, Social Sign-in, Social Login Plug-in, Facebook Connect, Google, Yahoo OpenID, Hyves openid,Linkedin openid,
+single sign-on , SAAS solution, Social Sign-in, Social Login Plug-in, Facebook Connect, Google, Yahoo,FourSquare,OpenID, Hyves openid,Linkedin openid,
 Mixi opendID, Virgilio OpenID, italian language, BuddyPress
 Requires at least: 2.5.0
 Tested up to: 3.2.1
-Stable tag: 2.0
+Stable tag: 2.1
 
 Lasciate che i vostri utenti tramite login e commentare i loro ID esistente da fornitori ID popolari come Facebook, Google, Twitter, Yahoo, Live e oltre 15 di piu'!
 
@@ -52,6 +52,7 @@ processo di registrazione ovvero:
 * Flickr
 * Yahoo
 * Linkedin
+* FourSquare
 * Wordpress
 * Blogger
 * MyOpenID
@@ -74,6 +75,9 @@ processo di registrazione ovvero:
 * Press/Media page: http://www.loginradius.com/press
 * Blog: http://blog.loginradius.com
 * I nostri video: http://www.youtube.com/loginradius
+* Social Login for WordPress in franch: http://wordpress.org/extend/plugins/social-login-for-wordpress-in-french-language-francais/
+* Social Login for WordPress: http://wordpress.org/extend/plugins/loginradius-for-wordpress/
+
 
 == Installation ==
 
@@ -137,14 +141,23 @@ Grazie per aver scaricato il nostro plugin ^_^
 
 == Screenshots ==
 
-1. Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.0/screenshot-1.png
+1. Screenshot-1: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Frontend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.1/screenshot-1.png
 
-2. Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.0/screenshot-2.png
+2. Screenshot-2: L' immagine mostra l'interfaccia Loginradius per la sezione commenti. Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.1/screenshot-2.png
 
-3. Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.0/screenshot-3.png
+3. Screenshot-3: L' immagine mostra l'interfaccia Loginradius per la sezione di login (Backend). Usare le freccie laterali di scorrimento per scegliere quale social usare per accedere al sito. /tags/2.1/screenshot-3.png
 
 
 == Changelog ==
+
+= 2.1 =
+* Stable release
+* Added foursquare social login in provider list
+* redirect user by choosing option admin.
+* email validation in popup and exists check.
+* popup enhancements
+* added interface on comment box for login user or open.
+* Admin interface enhancements
 
 = 2.0 =
 * Stable release
@@ -178,3 +191,6 @@ Bug fixed - Registered user email notification issue
 
 = 2.0 =
 Bug fixes and Admin interface enhancements
+
+= 2.1 =
+All Bug fixes
