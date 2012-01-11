@@ -75,8 +75,8 @@ processo di registrazione ovvero:
 * Press/Media page: http://www.loginradius.com/press
 * Blog: http://blog.loginradius.com
 * I nostri video: http://www.youtube.com/loginradius
-* Social Login for WordPress in franch: http://wordpress.org/extend/plugins/social-login-for-wordpress-in-french-language-francais/
 * Social Login for WordPress: http://wordpress.org/extend/plugins/loginradius-for-wordpress/
+* Social Login for WordPress in French: http://wordpress.org/extend/plugins/social-login-for-wordpress-in-french-language-francais/
 
 
 == Installation ==
