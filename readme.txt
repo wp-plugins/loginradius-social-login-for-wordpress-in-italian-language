@@ -12,9 +12,11 @@ Stable tag: 2.1
 Lasciate che i vostri utenti tramite login e commentare i loro ID esistente da fornitori ID popolari come Facebook, Google, Twitter, Yahoo, Live e oltre 15 di piu'!
 
 == Description ==
-=Nota= Abbiamo spostato questo plug-in con langugae italiano per http://wordpress.org/extend/plugins/loginradius-for-wordpress/. Si prega di utilizzare il plug-in aggiornato in lingua italiana.
+= Nota = 
+Abbiamo spostato questo plug-in con langugae italiano per http://wordpress.org/extend/plugins/loginradius-for-wordpress/. Si prega di utilizzare il plug-in aggiornato in lingua italiana.
 
-=Note= We have moved this plug-in with Italian langugae to http://wordpress.org/extend/plugins/loginradius-for-wordpress/. Please use the updated plug-in in Italian language to implement Socail Login.
+= Note = 
+We have moved this plug-in with Italian langugae to http://wordpress.org/extend/plugins/loginradius-for-wordpress/. Please use the updated plug-in in Italian language to implement Socail Login.
 
 Il plugin questo consente agli utenti di accedere a un sito Wordpress, semplicemente con un click, 
 usando il proprio account Facebook, Twitter, Google, Yahoo e tantissimi altri (20 in totale). Elimina quindi un lungo
